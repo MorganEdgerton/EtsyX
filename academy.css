@@ -1,0 +1,32 @@
+.snapshots{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.snap-card{
+	background-color:white;
+	border: 1px solid #E1E3DF;
+	border-bottom-color:#CBCCC9;
+	border-radius:3;
+	position:relative;
+	padding: 0px 15px;
+}
+
+.strong{
+	font-weight: 700;
+}
+
+.circle{
+	width:45px;
+}
+
+.flag-body label{
+	margin:0px;
+}
+
+@media (min-width: 970px) { 
+
+	.date{
+		float:right;
+	}
+}
