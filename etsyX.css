@@ -1,0 +1,28 @@
+.navbar{
+	
+	border:none;
+	border-radius: 0px;
+}
+nav .container-fluid{
+	border-bottom: 1px solid #E1E3DF;
+	background-color: white;
+}
+
+.etsyX-logo{
+	max-height:20px;
+}
+
+.profile-img{
+	width: 25px;
+}
+
+.cnav-header{
+	height: 42px;
+}
+
+h2{
+	font-family: 'Helvetica-Neue', sans-serif; font-weight:500;
+}
+
+
+

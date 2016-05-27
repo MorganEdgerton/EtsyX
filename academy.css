@@ -1,6 +1,10 @@
+
+
+
 .snapshots{
 	padding-top: 30px;
 	padding-bottom: 30px;
+	border-bottom:1px solid #CBCCC9;
 }
 
 .snap-card{
@@ -9,23 +13,27 @@
 	border-bottom-color:#CBCCC9;
 	border-radius:3;
 	position:relative;
-	padding: 0px 15px;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+.snapcard .circle{
+	width:45px;
 }
 
 .strong{
 	font-weight: 700;
 }
 
-.circle{
-	width:45px;
-}
 
 .flag-body label{
 	margin:0px;
 }
 
-@media (min-width: 970px) { 
-
+@media (min-width: 900px) { 
+	.etsyX-logo{
+		max-height:25px;
+	}	
 	.date{
 		float:right;
 	}
