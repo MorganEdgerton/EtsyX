@@ -20,6 +20,7 @@
 
 
     <!-- Custom styles for this template -->
+    <link href="etsyX.css" rel="stylesheet">
     <link href="home.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -35,75 +36,134 @@
 
   <body>
 
-<!--     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid top-nav">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header col-xs-12">
+            <div class="apply-nav-height">
+            <a class="apply-nav-height" href="#"><img class="etsyX-logo" src="img/etsyX-logo-lg.png"></a>
+            <div class="right-nav float-right">
+                <span class="hidden-xs hidden-sm  float-right"><a><img id="right-nav-lg" src="img/nav-lg.png"></a></span>
+                <span class="hidden-md hidden-lg float-right"><a><img id="right-nav-sm" src="img/right-nav-sm.png"></a></span>
             </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-<!--       </div>
-    </nav> --> 
-      <nav>
-          <div id="gnav-header" class="gnav-header global-nav clear gnav-3  button-text">
-            <header id="gnav-header-inner" class="body-max-width gnav-header-inner clear apply-nav-height col-group" role="banner">
-              <div class="col-xs-12">
-                <div id="etsy-logo" class="apply-nav-height">
-                  <a href="https://www.etsy.com/">Etsy</a>
-                </div>
-
-              </div>
-            </header>
           </div>
+        </div>  
+      </div><!-- /.container-fluid -->
+      
+      <div class="container-fluid lower-nav hide-xs">
+          <div id="cnav-header" class="ui-toolkit cnav-header">
+            <div id="cnav-header-inner" class="body-max-width cnav-header-inner position-relative col-group">
+              <ul class="nav navbar-nav navbar-left pl-xs-0">
+                <li class="catnav-primary-item list-inline-item"><a class="text-gray">Home</a></li>
+                <li class="catnav-primary-item list-inline-item"><a class="text-gray">SpaceX Flight</a></li>
+                <li class="catnav-primary-item list-inline-item"><a class="text-gray">Astronaut Profiles</a></li>
+                <li class="catnav-primary-item list-inline-item"><a class="text-gray">Blog</a></li>
+                <li class="catnav-primary-item list-inline-item"><a class="text-gray">Apply</a></li>
+              </ul>
+          </div>
+        </div>
       </nav>
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron bg-autumn">
+
+    <!-- Countdown -->
+    <div id="countdown" class="container-fluid bg-orange text-center full-width">
+      <span class="bg-orange">
+        <h3>00:07:11:20:03 to liftoff</h3>
+      </span>
+    </div>
+
+
+    <!-- Title and updates -->
+    <div id="title-area"class="jumbotron bg-blue">
       <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="apply-1.html" role="button">Learn more &raquo;</a></p>
+        <h1 class="h1-display">We love you to the moon and back</h1>
+        <p class="hidden-xs">For our 10th anniversary we are sending Etsy users on a trip to the moon.</p>
+        <div class="input-group hidden-xs">
+          <div class="input-group-body">
+              <input type="text" class="input" placeholder="Enter email">
+          </div>
+          <div class="input-group-btn">
+              <a href="" class="btn btn-secondary btn-append btn-orange">Get updates</a>
+          </div>
+        </div>
+        <!-- spaceX logo -->
+        <div id="spaceX-corner">
+          <img id="spaceX-logo" src="img/spaceX-logo.png"/>
+        </div>
       </div>
     </div>
 
+    <!-- Mobile xs -->
+    <div id="updates-sm" class="container bg-white">
+      <p class="visible-xs">For our 10th anniversary we are sending Etsy users on a trip to the moon.</p>
+        <div class="input-group visible-xs">
+          <div class="input-group-body">
+              <input type="text" class="input" placeholder="Enter email">
+          </div>
+          <div class="input-group-btn">
+              <a href="" class="btn btn-secondary btn-append btn-orange">Get updates</a>
+          </div>
+        </div>
+    </div>
+    <!-- end: Title and updates -->
+
+    <!-- How we'll get there -->
+    <h2 class="mb-xs-3 mb-md-4 mb-lg-5 text-center h5-display">How we'll get there</h2>
+
     <div class="container">
-      <!-- Example row of columns -->
+
+      <img id="moon-cartoon" class="visible-xs" src="img/moon-cartoon.png"/>
+
       <div class="row">
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Astronaut Academy</h2>
+          <p>Thirty chosen astronauts will train and prepare for 3 months before the big flight. </p>
         </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>SpaceX Falcon10</h2>
+          <p>A commercial spaceship complete with everything an astronaut needs, from spa beds to laser cannons.</p>
        </div>
         <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2>Lunar Landing</h2>
+          <p>After 3 days The Falcon10 will reach the moon. The FalconX uses 6 precision thrusters to land.</p>
         </div>
       </div>
 
-      <hr>
+      <a class="display-inline-block mt-xs-2 pt-xs-2 pl-xs-2 pr-xs-2 parent-hover-underline">Learn more > </a>
 
-      <!-- Astronaut Profiles -->
-      <h2 class="mb-xs-3 mb-md-4 mb-lg-5 text-center h5-display">Astronaut Profiles</h2>
+    </div>
+
+
+    <!-- The crew --> 
+    <div class="bg-creamsicle">
+      <div id="crew" class="container">
+        <h2 class="col-xs-12 text-center mt-xs-6 mt-md-0 h3-display">Who's coming along</h2>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="factoid">
+              <div class="big-number">10</div>
+              <p>SpaceX astronaut guides</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="factoid">
+              <div class="big-number">15</div>
+              <p>of your favorite shop owners</p>
+            </div>
+         </div>
+          <div class="col-md-4">
+            <div class="factoid">
+              <div class="big-number">15</div>
+              <p>Etsy lovers like you!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Astronaut Profiles -->
+    <h2 class="mb-xs-3 mb-md-4 mb-lg-5 text-center h5-display">Astronaut Profiles</h2>
 
       <!-- Block Grid -->
       <div class="block-grid-xs-2 block-grid-sm-3 block-grid-md-6">
@@ -209,12 +269,74 @@
                   </div>
               </div>
           </div>
+        </div>
+
+        <a class="display-inline-block mt-xs-2 pt-xs-2 pl-xs-2 pr-xs-2 parent-hover-underline">See all profiles > </a>
+
+      <!-- end: Block Grid -->
+
+       <!-- Journey Blog -->
+      <h2 class="mb-xs-3 mb-md-4 mb-lg-5 text-center h5-display">Journey Blog</h2>
+
+      <!-- Block Grid -->
+      <div class="col-group">
+        <div class="block-grid-xs-1 block-grid-sm-2 block-grid-md-3">
+            <div class="block-grid-item col-offset-md-2">
+                <div class="card">
+                    <div class="card-body" title="Solid Walnut Bed Frame and Headboard - Available in other woods">
+                        <div class="card-img-wrap">
+                            <img src="img/astro-cat.png">
+                        </div>
+                        <div class="card-meta">
+                            <div class="card-meta-row">
+                                <div class="card-meta-row-item card-title selected-color">Firstname Lastname</div>
+                            </div>
+                            <div class="card-meta-row">
+                                <div class="card-meta-row-item selected-color text-gray-lighter">hedgehouse</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block-grid-item">
+                <div class="card">
+                    <div class="card-body" title="Solid Walnut Bed Frame and Headboard - Available in other woods">
+                        <div class="card-img-wrap">
+                            <img src="img/ships.png">
+                        </div>
+                        <div class="card-meta">
+                            <div class="card-meta-row">
+                                <div class="card-meta-row-item card-title selected-color">Firstname Lastname</div>
+                            </div>
+                            <div class="card-meta-row">
+                                <div class="card-meta-row-item selected-color text-gray-lighter">hedgehouse</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="display-inline-block mt-xs-2 pt-xs-2 pl-xs-2 pr-xs-2 parent-hover-underline">See more > </a>
       </div>
       <!-- end: Block Grid -->
 
-      <footer>
-        <p>&copy; 2015 Company, Inc.</p>
-      </footer>
+
+
+      <!-- Apply to be an astronaut --> 
+      <div class="bg-cara-cara">
+        <div id="apply-home" class="container">
+          <h2 class="col-xs-12 text-center mt-xs-6 mt-md-0 h3-display">Apply to be an astronaut!</h2>
+
+          <div class="prose text-center">
+            Think you have what it takes to go to the moon? We sure do! Fill out a 3 step application for a chance to be part of our crew.
+            <button href="apply-1.css" class="btn btn-orange-text">Apply</button>
+          </div>
+            
+        </div>
+      </div>
+
+
     </div> <!-- /container -->
 
 

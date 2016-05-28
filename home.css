@@ -1,1 +1,70 @@
-this is style.css
+
+
+#countdown{
+	color:white;
+	vertical-align: middle;
+	height:42px
+}
+#countdown span{
+	margin:auto;
+}
+h3{
+	margin:0px;
+}
+
+#spaceX-corner{
+	bottom: -20px;
+	right:-15px;
+	float:right;
+    height:35px;
+    position:relative;
+    display:inline-block;
+
+}
+
+#spaceX-logo{
+	height: 25px;
+}
+
+#moon-cartoon{
+	position:absolute;
+	right:10px;
+	top:870px;
+	height:80px;
+}
+
+#crew{
+	color:white;
+	padding: 20px 10px;
+}
+
+#crew p{
+	display:inline-block;
+	height:inherit;
+	position: absolute;
+    top: 40%;
+    padding-left: 10px;
+}
+
+.big-number{
+    font-size: 50px;
+    font-family: Helvetica;
+    font-weight: 500;
+    display:inline-block;
+}
+
+#apply-home button{
+	display:block;
+	margin: 0 auto;
+	margin-top:10px;
+}
+
+#apply-home{
+	color:white;
+	padding: 20px 10px;
+}
+
+.parent-hover-underline{
+	width:100%;
+	text-align:center;
+}
