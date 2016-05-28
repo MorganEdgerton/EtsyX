@@ -73,18 +73,22 @@
 
 
     <!-- Title and updates -->
-    <div id="title-area"class="jumbotron bg-blue">
+    <div id="title-area" class="jumbotron bg-blue">
       <div class="container">
-        <h1 class="h1-display">We love you to the moon and back</h1>
-        <p class="hidden-xs">For our 10th anniversary we are sending Etsy users on a trip to the moon.</p>
-        <div class="input-group hidden-xs">
+        <h1 class="h1-display">We love you to the <br> moon and back</h1>
+        <h2 class="hidden-xs">For our 10th anniversary we are sending Etsy users on a trip to the moon!</h2>
+        <div class="input-group hidden-xs" style="max-width:100px; margin-top:15px;">
           <div class="input-group-body">
-              <input type="text" class="input" placeholder="Enter email">
+              <input type="text" class="input" style="width:230px" placeholder="Enter email">
           </div>
           <div class="input-group-btn">
               <a href="" class="btn btn-secondary btn-append btn-orange">Get updates</a>
           </div>
+          <button class="btn btn-primary" style="display:inline; margin-left:10px;">Apply to go</button>
         </div>
+
+        <a class="display-inline-block mt-xs-2 pt-xs-2 pl-xs-2 pr-xs-2 pull-left visible-xs" style="color:white; font-weight:bold;">Apply to the moon flight > </a>
+        
         <!-- spaceX logo -->
         <div id="spaceX-corner">
           <img id="spaceX-logo" src="img/spaceX-logo.png"/>
@@ -93,8 +97,8 @@
     </div>
 
     <!-- Mobile xs -->
-    <div id="updates-sm" class="container bg-white">
-      <p class="visible-xs">For our 10th anniversary we are sending Etsy users on a trip to the moon.</p>
+    <div id="updates-sm" class="container bg-gray-lighter">
+      <h3 class="visible-xs text-center">For our 10th anniversary we are sending Etsy users on a trip to the moon!</h3>
         <div class="input-group visible-xs">
           <div class="input-group-body">
               <input type="text" class="input" placeholder="Enter email">
@@ -336,7 +340,6 @@
         </div>
       </div>
 
-
     </div> <!-- /container -->
 
 
@@ -347,6 +350,6 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"</script>
   </body>
 </html>

@@ -12,6 +12,15 @@ h3{
 	margin:0px;
 }
 
+.jumbotron{
+	background-image: url("img/moon-hero-lg.png");
+	color:white;
+}
+
+#title-area{
+	margin-bottom:0px;
+}
+
 #spaceX-corner{
 	bottom: -20px;
 	right:-15px;
@@ -24,6 +33,14 @@ h3{
 
 #spaceX-logo{
 	height: 25px;
+}
+
+#updates-sm{
+	padding:10px;
+	border-bottom: 1px solid #E1E3DF;
+}
+#updates-sm h3{
+	padding-bottom: 5px;
 }
 
 #moon-cartoon{
@@ -67,4 +84,20 @@ h3{
 .parent-hover-underline{
 	width:100%;
 	text-align:center;
+}
+
+@media (max-width: 768px){
+	#spaceX-corner{
+		bottom: -30px;
+	}
+
+	#spaceX-logo{
+		height:20px;
+	}
+}
+
+@media (min-width: 768px){
+	#title-area{
+		margin-bottom:30px;
+	}
 }

@@ -1,3 +1,74 @@
+/*fonts*/
+@font-face { font-family: Merriweather-light; src: url('fonts/merriweather/Merriweather Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal; }
+
+@font-face { font-family: Merriweather-bold; src: url('fonts/merriweather/Merriweather-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal; }
+
+ @font-face { font-family: Merriweather; src: url('fonts/merriweather/Merriweather-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal; }
+
+/*h1 .h1-display {
+	font-family: Merriweather-light, serif;
+	font-weight:lighter;
+	font-size:3px;
+}*/
+
+h1 {
+	font-family: Merriweather, serif;
+	font-weight:normal;
+	font-size:24px;
+}
+h2 {
+	font-family: Merriweather, serif;
+	font-weight:normal;
+	font-size:20px;
+}
+h3 {
+	font-family: Merriweather, serif;
+	font-weight:normal;
+	font-size:16px;
+}
+h4 {
+	font-family: Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:16px;
+}
+h5 {
+	font-family: Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.h1-display {
+	font-family: Merriweather-light, serif;
+	font-weight:lighter;
+	font-size:30px;
+}
+.h5-display {
+	font-family: Helvetica, serif;
+	font-weight:bold;
+	font-size:26px;
+}
+
+@media (max-width: 480px){
+	.h5-display {
+		font-size:18px;
+	}
+}
+
+
+/*end: fonts*/
+
+/*buttons*/
+.parent-hover-underline{
+	font-size:14px;
+	font-weight:bold;
+}
+
 .navbar{
 	border:none;
 	border-radius: 0px;
@@ -47,6 +118,12 @@ nav .container-fluid{
 		max-height:25px;
 		margin: 20px 15px 15px 15px;
 	}	
+}
+
+@media (min-width: 768px){
+	#title-area{
+		margin-bottom:30px;
+	}
 }
 
 @media (min-width: 900px){
