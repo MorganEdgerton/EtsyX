@@ -37,21 +37,8 @@
   <body>
 
 
+  <div id="nav-home"></div>
 
-    <nav class="navbar navbar-default mb-xs-1">
-      <div class="container-fluid top-nav">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header col-xs-12">
-            <div class="apply-nav-height">
-            <a class="apply-nav-height" href="#"><img class="etsyX-logo" src="img/etsyX-logo-lg.png"></a>
-            <div class="right-nav float-right">
-                <span class="hidden-xs hidden-sm  float-right"><a><img id="right-nav-lg" src="img/nav-lg.png"></a></span>
-                <span class="hidden-md hidden-lg float-right"><a><img id="right-nav-sm" src="img/right-nav-sm.png"></a></span>
-            </div>
-          </div>
-        </div>  
-      </div><!-- /.container-fluid -->
-    </nav>
 
 <!-- upper-subway section -->
   <div id="upper-subway" class="bg-white">
@@ -183,7 +170,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="node_modules/jQuery/lib/node-jquery.js"><\/script>')</script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript">  $(document).ready(function(){ $('#menu').('navbar.html'); }); </script>
+        <script>$(document).ready(function() {
+      $('#nav-home').load('navbar-1.html');
+      });
+    </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
