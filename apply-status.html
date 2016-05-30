@@ -37,18 +37,7 @@
   <body>
 
 
-<nav>
-    <div id="gnav-header" class="gnav-header global-nav clear gnav-3  button-text">
-      <header id="gnav-header-inner" class="body-max-width gnav-header-inner clear apply-nav-height col-group" role="banner">
-        <div class="col-xs-12">
-          <div id="etsy-logo" class="apply-nav-height">
-            <a href="https://www.etsy.com/">Etsy</a>
-          </div>
-
-        </div>
-      </header>
-    </div>
-</nav>
+<div id="nav-home"></div>
 
 <!-- end: upper-subway -->
 
@@ -88,6 +77,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="../../dist/js/bootstrap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('#nav-home').load('navbar-1.html');
+      });
+    </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
