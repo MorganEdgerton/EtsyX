@@ -13,22 +13,28 @@ h3{
 }
 
 .jumbotron{
-	background-image: url("img/moon-hero-lg.png");
+	background-image: url("img/moon-hero-lg-@1x.png");
 	color:white;
+}
+
+.jumbotron h1{
+	font-family: Merriweather-light, serif;
+	font-weight:lighter;
+	font-size:36px;
 }
 
 #title-area{
 	margin-bottom:0px;
+	max-height:280px;
 }
 
 #spaceX-corner{
-	bottom: -20px;
+	bottom: 0px;
 	right:-15px;
 	float:right;
     height:35px;
     position:relative;
     display:inline-block;
-
 }
 
 #spaceX-logo{
@@ -99,5 +105,9 @@ h3{
 @media (min-width: 768px){
 	#title-area{
 		margin-bottom:30px;
+	}
+	.jumbotron{
+		padding-left:10px;
+		padding-right:10px;
 	}
 }

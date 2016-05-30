@@ -11,26 +11,24 @@
   font-weight: normal;
   font-style: normal; }
 
-/*h1 .h1-display {
-	font-family: Merriweather-light, serif;
-	font-weight:lighter;
-	font-size:3px;
-}*/
+
 
 h1 {
 	font-family: Merriweather, serif;
-	font-weight:normal;
+	font-weight:bold;
 	font-size:24px;
 }
 h2 {
 	font-family: Merriweather, serif;
 	font-weight:normal;
 	font-size:20px;
+
 }
 h3 {
 	font-family: Merriweather, serif;
 	font-weight:normal;
 	font-size:16px;
+	margin-top:10px;
 }
 h4 {
 	font-family: Helvetica, sans-serif;
@@ -43,10 +41,10 @@ h5 {
 	font-size:14px;
 }
 
-.h1-display {
+h1 .h1-display {
 	font-family: Merriweather-light, serif;
 	font-weight:lighter;
-	font-size:30px;
+	font-size:36px;
 }
 .h5-display {
 	font-family: Helvetica, serif;
@@ -55,6 +53,11 @@ h5 {
 }
 
 @media (max-width: 480px){
+	h1{
+		font-weight:normal;
+		font-size:20px;
+	}
+
 	.h5-display {
 		font-size:18px;
 	}
@@ -66,8 +69,11 @@ h5 {
 /*buttons*/
 .parent-hover-underline{
 	font-size:14px;
-	font-weight:bold;
 }
+.parent-hover-underline:hover{
+	text-decoration: underline;
+}
+/*end: buttons*/
 
 .navbar{
 	border:none;
@@ -88,6 +94,7 @@ nav .container-fluid{
 #cnav-header li{
 	display: inline-block;
 }
+
 
 
 @media (max-width: 320px) { 
@@ -143,4 +150,5 @@ nav .container-fluid{
 .circle{
 	width:45px;
 }
+
 

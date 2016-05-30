@@ -13,9 +13,12 @@
 	display: inline-block;
 }
 
+#greeting{
+	background-color: #FBFBFA;
+}
 
 .snapshots{
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-bottom: 30px;
 	border-bottom:1px solid #CBCCC9;
 }
@@ -30,6 +33,17 @@
 	margin-bottom: 10px;
 }
 
+.badge{
+	display:inline-block;
+}
+
+.parent-hover-underline{
+	width:100%;
+}
+.parent-hover-underline:hover{
+	text-decoration: underline;
+}
+
 .nav-link .circle{
 	width:45px;
 }
@@ -38,18 +52,34 @@
 	font-weight: 700;
 }
 
-
+.flag{
+	margin-left:5px;
+	margin-bottom:5px;
+}
 .flag-body label{
 	margin:0px;
+}
+
+a{
+	font-weight:normal;
+
+}
+a:hover{
+	text-decoration: underline;
 }
 
 @media (min-width: 480px){
 	.nav-link .circle{
 		width:30px;
 	}
+	.date{
+		text-align:right;
+	}
+	.info-card{
+		min-height:275px;
+	}
+
 }
 
-#conversation-img{
-	width:100%;
-}
+
 

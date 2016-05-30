@@ -3,11 +3,23 @@
 }
 .subway{
 	padding: 30px;
+	border-bottom: 1px solid #E1E3DF;
 }
 
-footer{
-	height: 40px;
-	background-color:;
+#apply-title{
+	padding: 30px;
+	border-bottom: 1px solid #E1E3DF;
+}
+
+#section-heading{
+	margin: 0px 10px;
+}
+
+input{
+	max-width:288px;
+}
+select{
+	max-width:288px;
 }
 
 textarea{

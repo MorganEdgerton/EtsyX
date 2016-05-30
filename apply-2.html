@@ -20,6 +20,7 @@ z <!DOCTYPE html>
 
 
     <!-- Custom styles for this template -->
+    <link href="etsyX.css" rel="stylesheet">
     <link href="apply.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -54,12 +55,6 @@ z <!DOCTYPE html>
 
 <!-- upper-subway section -->
     <div id="upper-subway" class="bg-white">
-      <div class="col-group body-max-width  text-center">
-        <div id="apply-title">
-          <h1>Got what it takes to be an astronaut?</h1>
-          <p>We sure think you do! Start a short application here or see our current astronaut profiles to get inspired.</p>
-        </div>
-      </div>
 
       <!-- Subway -->
       <ol class="subway width-full list-unstyled">
@@ -91,26 +86,41 @@ z <!DOCTYPE html>
 </div>
 <!-- end: upper-subway -->
 
+<div id="question-body" class="full width">
+
+ <h1 class="mb-xs-2 mb-md-2 mt-sm-4 mt-xs-4 text-center">Medical Info</h1>
+
 <div class="panel mt-xs-4 mb-xs-4">
     <div class="panel-body">
         <div class="second prose">
-            <h2 class="text-center">Medical Info</h2>
-            <div class="col-md-3 mb-xs-1">
+          <div class="col-group col-flush mt-sm-2">
+          
+              <div class="col-md-3 mb-xs-2">
                   <label class="strong align-with-btn">Height</label>
               </div>
-              <div class="col-md-9 mb-xs-4">
+              <div class="col-md-6 mb-xs-2">
                   <input type="text" class="input" placeholder="1.55m">
               </div>
+              <div class=" col-md-3 col-xs-12 help-info mb-xs-2">
+                    <p class="text-gray-lighter">Why we need your height...</p>
+              </div>
+          </div>
+          <div class="col-group col-flush">
               <div class="col-md-3 mb-xs-1">
                   <label class="strong align-with-btn">Weight</label>
               </div>
-              <div class="col-md-9 mb-xs-4">
+              <div class="col-md-6 mb-xs-2">
                   <input type="text" class="input" placeholder="63kg">
               </div>
-              <div class="col-md-3 mb-xs-2">
+              <div class=" col-md-3 col-xs-12 help-info mb-xs-2">
+                    <p class="text-gray-lighter">Why we need your weight...</p>
+              </div>
+          </div>
+          <div class="col-group col-flush">
+              <div class="col-md-3 mb-xs-2 ">
                   <label class="strong">Do you have health insurance?</label>
               </div>
-              <div class="col-md-9 mb-xs-4">
+              <div class="col-md-6 mb-xs-2">
                   <label class="radio-custom form-option-inline">
                       <input type="radio" value="Yes" name="item_type" class="radio" checked>
                       <span class="radio-label">Yes</span>
@@ -120,10 +130,15 @@ z <!DOCTYPE html>
                       <span class="radio-label">No</span>
                   </label>
               </div>
+              <div class=" col-md-3 col-xs-12 help-info mb-xs-2">
+                    <p class="text-gray-lighter">Why we need your insurance info...</p>
+              </div>
+          </div>
+          <div class="col-group col-flush">
               <div class="col-md-3 mb-xs-2">
                   <label class="strong">Do you have low blood pressure?</label>
               </div>
-              <div class="col-md-9 mb-xs-4">
+              <div class="col-md-6 mb-xs-2">
                   <label class="radio-custom form-option-inline">
                       <input type="radio" value="Yes" name="item_type" class="radio" checked>
                       <span class="radio-label">Yes</span>
@@ -133,10 +148,15 @@ z <!DOCTYPE html>
                       <span class="radio-label">No</span>
                   </label>
               </div>
+              <div class=" col-md-3 col-xs-12 help-info mb-xs-2">
+                    <p class="text-gray-lighter">Why we need your blood pressure history...</p>
+              </div>
+          </div>
+          <div class="col-group col-flush">
               <div class="col-md-3 mb-xs-2">
                   <label class="strong">Are you pregnant?</label>
               </div>
-              <div class="col-md-9 mb-xs-4">
+              <div class="col-md-6 mb-xs-2">
                   <label class="radio-custom form-option-inline">
                       <input type="radio" value="Yes" name="item_type" class="radio" checked>
                       <span class="radio-label">Yes</span>
@@ -146,11 +166,17 @@ z <!DOCTYPE html>
                       <span class="radio-label">No</span>
                   </label>
               </div>
+              <div class=" col-md-3 col-xs-12 help-info mb-xs-2">
+                    <p class="text-gray-lighter">Why you probably shouldn't be pregnant...</p>
+              </div>
+          </div>
             </div>
+          </div>
         </div>
     </div>
+  </div>
 </div>
-<div class="col-group col-flush">
+<div class="col-group">
     <div class="col-xs-6">
         <a href="apply-1.html" class="btn btn-secondary float-left"><span class="ss-etsy ss-navigateleft icon-smaller icon-t-1 pr-xs-1"></span>Back</a>
         &nbsp;
