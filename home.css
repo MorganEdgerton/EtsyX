@@ -1,31 +1,60 @@
 
+#nav-xs{
+	height:42px;
+}
+.dropdown {
+	max-width: none;
+	width:100%;
+	position:relative;
+}
+.dropdown-toggle{
+	width: 100%;
+    text-align: left;
+}
+.dropdown-menu{
+	width: 100%;
+}
 
-#countdown{
+
+/*.alert{
+	padding:5px;
+	border-radius: 0px;
+}
+
+.alert-message{
 	color:white;
-	vertical-align: middle;
-	height:42px
+	text-align:left;
+	display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}*/
+
+.input-group-btn .btn-secondary{
+	border:none;
 }
-#countdown span{
-	margin:auto;
+
+.btn-orange-text{
+	color: #C13C27;
 }
+
 h3{
 	margin:0px;
 }
 
 .jumbotron{
-	background-image: url("img/moon-hero-lg-@1x.png");
+	background-image: url("img/real-moon-hero.jpg");
 	color:white;
 }
 
 .jumbotron h1{
 	font-family: Merriweather-light, serif;
 	font-weight:lighter;
-	font-size:36px;
+	font-size:32px;
 }
 
 #title-area{
 	margin-bottom:0px;
-	max-height:280px;
+
 }
 
 #spaceX-corner{
@@ -35,6 +64,7 @@ h3{
     height:35px;
     position:relative;
     display:inline-block;
+
 }
 
 #spaceX-logo{
@@ -50,14 +80,13 @@ h3{
 }
 
 #moon-cartoon{
-	position:absolute;
-	right:10px;
-	top:870px;
-	height:80px;
+	position: absolute;
+    left: 10px;
+    top: 810px;
+    height: 90px;
 }
 
 #crew{
-	color:white;
 	padding: 20px 10px;
 }
 
@@ -69,11 +98,23 @@ h3{
     padding-left: 10px;
 }
 
+.factoid{
+	margin: 0 auto;
+	width: 250px;
+}
+
+#updates-sm h3{
+	font-family: Merriweather-light, serif;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
 .big-number{
-    font-size: 50px;
-    font-family: Helvetica;
-    font-weight: 500;
+    font-size: 60px;
+    font-family: Merriweather-light;
+    font-weight: lighter;
     display:inline-block;
+    color:#FFAC62;
 }
 
 #apply-home button{
@@ -92,20 +133,32 @@ h3{
 	text-align:center;
 }
 
+@media(min-width:480px){
+	.jumbotron{
+		max-height:340px;
+	}
+	.jumbotron h1{
+		font-size: 52px;
+	}
+	#moon-cartoon{
+		    position: absolute;
+		    left: 10px;
+		    top: 700px;
+		    height: 160px;
+	}
+}
+
 @media (max-width: 768px){
 	#spaceX-corner{
 		bottom: -30px;
 	}
 
 	#spaceX-logo{
-		height:20px;
+		height:17px;
 	}
 }
 
 @media (min-width: 768px){
-	#title-area{
-		margin-bottom:30px;
-	}
 	.jumbotron{
 		padding-left:10px;
 		padding-right:10px;
