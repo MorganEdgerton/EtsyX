@@ -37,7 +37,7 @@
   <body>
 
 
-<nav>
+<!-- <nav>
     <div id="gnav-header" class="gnav-header global-nav clear gnav-3  button-text">
       <header id="gnav-header-inner" class="body-max-width gnav-header-inner clear apply-nav-height col-group" role="banner">
         <div class="col-xs-12">
@@ -48,7 +48,10 @@
         </div>
       </header>
     </div>
-</nav>
+</nav> -->
+
+<div id="menu"></div>
+
 <!-- upper-subway section -->
   <div id="upper-subway" class="bg-white">
       <div class="col-group body-max-width text-center">
@@ -177,8 +180,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="node_modules/jQuery/lib/node-jquery.js"><\/script>')</script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">  $(document).ready(function(){ $('#menu').('navbar.html'); }); </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
