@@ -143,7 +143,7 @@ h3{
 	
 }
 
-@media (max-width: 768px){
+@media(max-width: 768px){
 	#spaceX-corner{
 		bottom: -30px;
 	}
@@ -152,6 +152,9 @@ h3{
 		height:17px;
 	}
 	.celebrate{
+		font-weight:normal;
+	}
+	h5 .subeader{
 		font-weight:normal;
 	}
 }

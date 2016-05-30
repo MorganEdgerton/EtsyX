@@ -161,6 +161,12 @@ nav .container-fluid{
 	}
 }
 
+@media (max-width: 768px){
+	h5 .subheader{
+		font-weight:normal;
+	}
+}
+
 .circle{
 	width:45px;
 }
