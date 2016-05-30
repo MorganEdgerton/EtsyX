@@ -42,52 +42,9 @@
 
   <body class="transitional-wide is-signed-in  no-touch is-responsive en-US is-global-nav">
 
-  <nav class="navbar navbar-default">
-  <div class="container-fluid top-nav">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <div class="apply-nav-height">
-      <a class="nav-link apply-nav-height" href="academy-home.html"><img class="etsyX-logo hidden-xs" src="img/EtsyXAcademy.png"></a>
-      <a class="nav-link apply-nav-height" href="academy-home.html"><img class="etsyX-logo visible-xs" src="img/EXA.png"></a>
-      <!-- <div id="right-nav-xs" class="visible-xs right-nav right-nav-sm">
-          <span class="hidden-md hidden-lg float-right"><a><img id="right-nav-sm" src="img/nav-2-xs.png"></a></span>
-        </div> -->
-      </div>
-    </div>
+  <div id="navbar-2"></div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-        <ul class="nav navbar-nav navbar-right hidden-xs">
-            <li class="catnav-primary-item list-inline-item "><a class="text-gray">Home</a></li>
-            <li class="catnav-primary-item list-inline-item "><a class="text-gray">Conversations</a></li>
-            <li class="catnav-primary-item list-inline-item "><a class="text-gray">Training</a></li>
-            <li class="catnav-primary-item list-inline-item "><a class="text-gray">Checklist</a></li>
-            <li><a class="nav-link"><img class="circle profile-img" src="img/people/Lisa.jpg"></a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right hidden-sm">
-            <!-- <li class="catnav-primary-item list-inline-item "> <span class="float-right right-nav"><a><img id="right-nav-sm" src="img/nav-2-xs.png"></a></span></li> -->
-            <li class="catnav-primary-item list-inline-item "><a class="nav-link"><img class="circle profile-img" src="img/nav-icons/check-icon.png"></a></li>
-            <li class="catnav-primary-item list-inline-item "><a class="nav-link"><img class="circle profile-img" src="img/people/Lisa.jpg"></a></li>
-        </ul>
-
- <!--        <ul class="nav navbar-nav navbar-right hidden-md hidden-lg hidden-sm">
-          <li class="catnav-primary-item  list-inline-item"><a class="nav-link"><img class="circle profile-img" src="img/people/Lisa.jpg"></a></li>
-          <li class="catnav-primary-item  list-inline-item dropdown-nav">
-              <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                  Home
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Conversations</a></li>
-                  <li><a href="#">Training</a></li>
-                  <li><a href="#">Checklist</a></li>
-                </ul>
-              </div>  
-            </li>  
-        </ul> -->
-    </div><!-- /.container-fluid -->
-  </nav>
+  <!-- conversation-img -->
 
   <div id="conversation-ss" class="container">
     <img id="conversation-img" src="img/Conversation_ss.png" class="hidden-xs">
@@ -101,7 +58,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <script>window.jQuery || document.write('<script src="node_modules/jQuery/lib/node-jquery.js"><\/script>')</script>
-    <script type="text/javascript">  $(document).ready(function(){ $('#menu').('navbar.html'); }); </script>
+    <script>$(document).ready(function() {
+      $('#navbar-2').load('navbar-2.html');
+      });
+    </script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 

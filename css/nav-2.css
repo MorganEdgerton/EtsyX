@@ -1,10 +1,19 @@
 
-.navbar-nav>li>a {
-    line-height: 50px;
-}
+
 .nav-link{
 	line-height:75px;
 }
-#right-nav-sm{
-	
+#nav-2-xs li img{
+	height:25px;
+}
+#nav-2-xs ul .nav-link {
+	height:40px;
+}
+#nav-2-xs .circle{
+		width:25px;
+	}
+@media(min-width:480px){
+	.navbar-nav>li>a {
+    line-height: 50px;
+	}
 }

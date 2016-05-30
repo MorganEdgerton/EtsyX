@@ -40,38 +40,9 @@
 
   <body class="transitional-wide is-signed-in  no-touch is-responsive en-US is-global-nav ">
 
-  <nav class="navbar navbar-default">
-  <div class="container-fluid top-nav">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="nav-link" href="#"><img class="etsyX-logo" src="img/etsyX-logo-lg.png"></a>
-    </div>
+  <div id="navbar-2"></div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-        <ul class="nav navbar-nav navbar-right account-nav apply-nav-height">
-          <li class="activity">
-            <a href="#" class="nav-link">
-            </a>
-          </li>
-          <li><a class="nav-link"><img class="circle profile-img" src="img/people/Lisa.jpg"></a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-  <div class="container-fluid lower-nav hide-xs">
-      <div id="cnav-header" class="ui-toolkit cnav-header">
-        <div id="cnav-header-inner" class="body-max-width cnav-header-inner position-relative col-group">
-          <ul class="nav navbar-nav navbar-left pl-xs-0">
-            <li class="catnav-primary-item list-inline-item"><a class="text-gray">Home</a></li>
-            <li class="catnav-primary-item list-inline-item"><a class="text-gray">SpaceX Flight</a></li>
-            <li class="catnav-primary-item list-inline-item"><a class="text-gray">Astronaut Profiles</a></li>
-            <li class="catnav-primary-item list-inline-item"><a class="text-gray">Blog</a></li>
-          </ul>
-      </div>
-    </div>
-  </nav>
-
-
-<!--   <div id="greeting" class="container-fluid full-width bg-gray-lighter">
+  <!--   <div id="greeting" class="container-fluid full-width bg-gray-lighter">
     <h2 class="col-xs-12 text-center mt-xs-4 mt-md-4 display-h6">Hello, Lisa</h2>
     <h3 class="col-xs-12 text-center mt-xs-0 mt-md-0">40 days until liftoff</h3>
   </div> -->
@@ -201,7 +172,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script type="text/javascript">  $(document).ready(function(){ $('#menu').('navbar.html'); }); </script>
+    <script>$(document).ready(function() {
+      $('#navbar-2').load('navbar-2.html');
+      });
+    </script>
     <script src="../../dist/js/bootstrap.min.js"></script>
 
 
