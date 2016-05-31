@@ -1,10 +1,10 @@
 # EtsyX
 
-EtsyX is a Bootstrap prototype optimized for desktop and mobile platforms.
+EtsyX is a Bootstrap and Etsy Web toolkit prototype optimized for desktop and mobile.
 
 What to check out (order is important):
-** You can click the EtsyX logo to reset and return to the original home page
 
+You can click the EtsyX logo to reset and return to the original home page
 
 1. EtsyX Home page: http://thecatspajamas.morganedgerton.com/EtsyX/
   - Click anywhere you are prompted to **Apply to be an astronaut**
@@ -18,3 +18,6 @@ What to check out (order is important):
   - Enter this url to access portal: http://thecatspajamas.morganedgerton.com/EtsyX/academy-home.html
   - Only the *Conversations* area of Academy is built out. Navigate there by clicking **Conversations** or the icon in the nav bar or **See more** in the Conversations snapshot
  
+ Sorry the project file organization is really messy!
+
+ Thank you for taking a look! 
